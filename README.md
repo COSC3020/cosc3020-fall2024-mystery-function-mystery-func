@@ -11,3 +11,7 @@ function mystery(a) {
     else return a[0];
 }
 ```
+
+Answer: It takes a list or array and finds the largest value within the list and then returns it. It does this by recursively comparing the elements within the list or array until
+eventually the largest element is found within the compares and returned as output. So for instance if it is given a list containing values of 7, 6, 9, 88, 21, 3 then the function will 
+return 88.
